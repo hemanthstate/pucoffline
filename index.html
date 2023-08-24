@@ -1,0 +1,342 @@
+<!--
+==============================================
+
+**************************
+Script by M.D.V.S.MANEESWAR
+**************************
+
+==============================================
+!-->
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<link rel="stylesheet" type="text/css" href=".maneesh_files/bg.html" media="screen">
+<link rel="stylesheet" type="text/css" href=".maneesh_files/olms_style.css">
+<link rel="stylesheet" type="text/css" href=".maneesh_files/bootstrap.css"/>
+</head>
+
+<body>
+<header>
+<hgroup>
+</hgroup>
+</header>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>PUC-OFFLINES</title>
+        <meta name="author" content="M.D.V.S.MANEESWAR,N150945" />
+
+        <link rel="shortcut icon" href=".maneesh_files/images/iiitn.ico"> 
+        <link rel="stylesheet" type="text/css" href=".maneesh_files/prathap_prathap.css" />
+        <link rel="stylesheet" type="text/css" href=".maneesh_files/prathap_animate.css" />
+         <link rel="stylesheet" type="text/css" href=".maneesh_files/tooltip.css" />
+      <noscript>Your Browser doesn't support javascript.use firefox </noscript>
+       <script type="text/javascript" src=".maneesh_files/prathap_js/jquery.js"></script> 
+<script type="text/javascript" src=".maneesh_files/pra_source/lib/jquery-1.10.1.min.js"></script>
+
+	<script type="text/javascript" src=".maneesh_files/pra_source/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<script type="text/javascript" src=".maneesh_files/pra_source/source/jquery.fancybox.js?v=2.1.5"></script>
+
+	<link rel="stylesheet" type="text/css" href=".maneesh_files/pra_source/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+<script type="text/javascript">
+
+<!--
+function disableselect(e){
+return false
+}
+function reEnable(){
+return true
+}
+//if IE4+
+document.onselectstart=new Function ("return false")
+//if NS6
+if (window.sidebar){
+document.onmousedown=disableselect
+document.onclick=reEnable
+}
+// -->
+</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+			/*
+			 *  Different effects
+			 */
+
+			
+		});
+	</script>
+	<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+                        margin:40px;
+                       
+		}
+body {
+			margin: 0 auto;
+		}
+		
+	</style>
+
+		<style>
+.counter{
+color:yellow;
+font-weight:bold;
+}
+body{background:peachpuff;
+animation: blinker 15s infinite;} 
+@keyframes blinker{
+	0% {background-color:peachpuff;}
+	10% {background-color:khaki;}
+	20% {background-color:lavender;}
+	30% {background-color:peachpuff;}
+	
+	60% {background-color:khaki;}
+	70% {background-color:lavender;}
+	
+	100% {background-color:peachpuff;}z
+}
+
+</style>
+<style> 
+#panel
+{
+padding:5px;
+text-align:center;
+background-color:#e5eecc;
+border:solid 1px #c3c3c3;
+box-shadow:20px 20px 20px 20px transparent;
+}
+#panel
+{
+padding:5px;
+display:none;
+}
+
+</style>
+
+
+
+
+</script>
+    </head>
+<body>
+
+
+
+
+	
+		
+
+			
+				<center><h1><strong><b>IIIT NUZ</b></strong></h1>
+                                <span id="pluspra" >ALL OFFLINES</span>
+				<h2><div style="position:relative;left:0px;top:0px">
+<span id="highlighter" style="position:absolute;left:35%;top:0;font-size:18px;font-family:Comic Sans MS;cursor:help;background-color:;clip:rect(0px 0px auto 0px)"></span>
+</div>
+<p><marquee width="80%" behavior="alternate"> Some Games Are in Tools.....! Time Counter for exams is available in all offline contents..!  </marquee></p>
+
+
+
+
+
+<script type="text/javascript">
+
+
+
+var tickercontents=new Array()
+tickercontents[0]='******Welcome to TOPPERS of RGUKT !******'
+tickercontents[1]='***designed by M.D.V.S.MANEESWAR[CS-5]!***'
+
+var tickdelay=3000 //delay btw messages
+var highlightspeed=10 //10 pixels at a time.
+
+
+
+var currentmessage=0
+var clipwidth=0
+
+function changetickercontent(){
+crosstick.style.clip="rect(0px 0px auto 0px)"
+crosstick.innerHTML=tickercontents[currentmessage]
+highlightmsg()
+}
+
+function highlightmsg(){
+var msgwidth=crosstick.offsetWidth
+if (clipwidth<msgwidth){
+clipwidth+=highlightspeed
+crosstick.style.clip="rect(0px "+clipwidth+"px auto 0px)"
+beginclip=setTimeout("highlightmsg()",20)
+}
+else{
+clipwidth=0
+clearTimeout(beginclip)
+if (currentmessage==tickercontents.length-1) currentmessage=0
+else currentmessage++
+setTimeout("changetickercontent()",tickdelay)
+}
+}
+
+function start_ticking(){
+crosstick=document.getElementById? document.getElementById("highlighter") : document.all.highlighter
+crosstickParent=crosstick.parentNode? crosstick.parentNode : crosstick.parentElement
+if (parseInt(crosstick.offsetHeight)>0)
+crosstickParent.style.height=crosstick.offsetHeight+'px'
+else
+setTimeout("crosstickParent.style.height=crosstick.offsetHeight+'px'",100) //delay for Mozilla's sake
+changetickercontent()
+}
+
+if (document.all || document.getElementById)
+window.onload=start_ticking
+
+</script>
+
+<br><br>
+			
+           
+			<section class="main">
+			
+				<ul class="ch-grid">
+					<li>
+
+						
+<div class="ch-item ch-img-prathap">				
+							<div class="ch-info-wrap">
+								<div class="ch-info">
+									<div class="ch-info-front ch-img-1"></div>
+									<a href=".1/offline.html">
+                                                                                <div class="ch-info-back">
+										<h3>PUC1-SEM1</h3>
+										<p><a href=""></a></p>
+									</div>	</a>
+                                                           
+								</div>
+							</div>
+
+						</div>
+ <p><a href=".1/offline.html"  >PUC1-SEM1</a></p>
+					</li>
+					<li>
+						<div class="ch-item ch-img-prathap1">
+							<div class="ch-info-wrap">
+								<div class="ch-info">
+									<div class="ch-info-front ch-img-2"></div>
+                                                                         <a href=".2/offline.html">
+									<div class="ch-info-back">
+										<h3>PUC1-SEM2</h3>
+										<p><a href=""></a></p>
+									</div></a>
+								</div>
+							</div>
+						</div>
+                                   <p><a href=".2/offline.html">PUC1-SEM2</a></p>
+					</li>
+					<li>
+						<div class="ch-item ch-img-prathap2">
+							<div class="ch-info-wrap">
+								<div class="ch-info">
+									<div class="ch-info-front ch-img-3"></div>
+                                                                   <a href=".3/offline.html">
+									<div class="ch-info-back">
+										<h3>PUC2-SEM1</h3>
+										<p><a href=""></a></p></p>
+									</div>
+</a>
+								</div>
+							</div>
+						</div>
+    <p><a href=".3/offline.html">PUC2-SEM1</a></p>
+</li>
+					<li>
+						
+<div class="ch-item ch-img-prathap3">				
+							<div class="ch-info-wrap">
+								<div class="ch-info">
+									<div class="ch-info-front ch-img-4"></div>
+									<a href=".4/offline.html">
+                                                                                <div class="ch-info-back">
+										<h3>PUC2-SEM2</h3>
+										<p><a href=""></a></p>
+									</div>	</a>
+								</div>
+							</div>
+						</div>
+    <p><a href=".4/offline.html">PUC2-SEM2</a></p>
+					</li>
+	<li>
+						
+<div class="ch-item ch-img-prathap4">				
+							<div class="ch-info-wrap">
+								<div class="ch-info">
+									<div class="ch-info-front ch-img-5"></div>
+									<a href=".maneesh_files/tools.html">
+                                                                                <div class="ch-info-back">
+										<h3>TOOLS</h3>
+										<p><a href=""></a></p>
+									</div>	</a>
+								</div>
+							</div>
+						</div>
+    <p><a href=".maneesh_files/tools.html">TOOLS</a></p>
+                                          </li>
+	<li>
+						
+<div class="ch-item ch-img-prathap5">				
+							<div class="ch-info-wrap">
+								<div class="ch-info">
+									<div class="ch-info-front ch-img-7"></div>
+									<a href=".maneesh_files/games.html">
+                                                                                <div class="ch-info-back">
+										<h3>GAMES</h3>
+										<p><a href=""></a></p>
+									</div>	</a>
+								</div>
+							</div>
+						</div>
+    <p><a href=".maneesh_files/games.html">GAMES</a></p>
+                                          </li>
+        <li>
+<div class="ch-item ch-img-prathap6">				
+							<div class="ch-info-wrap">
+								<div class="ch-info">
+									<div class="ch-info-front ch-img-6"></div>
+									<a href=".maneesh_files/design.html">
+                                                                                <div class="ch-info-back">
+										<h3>DESIGINER</h3>
+										<p><a href=""></a></p>
+									</div>	</a>
+								</div>
+							</div>
+						</div>
+    <p><a href=".maneesh_files/design.html">DESIGNER</a></p>
+					</li>
+<li>
+</section>					
+</div></div>	</div>	</div>	</div>					
+<a href="#" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+    </body>
+<br><br><br>
+<footer>
+<h1><font size="2px"> Designed by Mutyala Maneeswar</h1>
+</footer>
+  
+
+        
+</html>
+<!--
+==============================================
+
+**********************************************
+Script by M.D.V.S.MANEESWAR
+
+==============================================
+!-->
